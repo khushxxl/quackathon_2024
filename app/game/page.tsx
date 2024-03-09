@@ -1,9 +1,12 @@
-import React from 'react'
+import { CardWithForm } from "@/components/Card";
+import React from "react";
 
 function Game() {
   return (
-    <div>Game</div>
-  )
+    <div>
+      <CardWithForm name={"Topic"} />
+    </div>
+  );
 }
 
-export default Game
+export default Game;
