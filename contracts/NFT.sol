@@ -14,11 +14,14 @@ contract Minter is ERC721Enumerable {
 
     mapping(uint256 => TokenData) private _tokenData;
 
+    // Base URI for computing {tokenURI}. If set, the resulting URI for each
+    // token will be the concatenation of the `baseURI` and the `tokenId`.
+    string private _baseURIextended;
+
     constructor() ERC721("Minter", "MINTER") {}
 
     function mint(string memory name, string memory imageUrl) public {
         uint256 mintIndex = totalSupply();
-
         _safeMint(msg.sender, mintIndex);
         _setTokenData(mintIndex, name, imageUrl);
     }
@@ -33,6 +36,22 @@ contract Minter is ERC721Enumerable {
         require(tokenOwner != address(0), "ERC721Metadata: Query for nonexistent token");
 
         return _tokenData[tokenId];
+    }
+
+    function setBaseURI(string memory baseURI_) external {
+        _baseURIextended = baseURI_;
+    }
+
+    function _baseURI() internal view override returns (string memory) {
+        return _baseURIextended;
+    }
+
+    function tokenURI(uint256 tokenId) public view override returns (string memory) {
+        address tokenOwner = ownerOf(tokenId);
+        require(tokenOwner != address(0), "ERC721Metadata: Query for nonexistent token");
+
+        string memory base = _baseURI();
+        return bytes(base).length > 0 ? string(abi.encodePacked(base, tokenId.toString())) : "";
     }
 
     function getBalance() public view returns (uint256) {

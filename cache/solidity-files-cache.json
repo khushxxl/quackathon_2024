@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/arvinshafiei/Documents/GitHub/quackathon_2024/contracts/NFT.sol": {
-      "lastModificationDate": 1710023285505,
-      "contentHash": "79a5526ebf83d6a382a5b9d6bea753e6",
+      "lastModificationDate": 1710024137986,
+      "contentHash": "63d76efbacf481d5eca95a043efaf939",
       "sourceName": "contracts/NFT.sol",
       "solcConfig": {
         "version": "0.8.24",
