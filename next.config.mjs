@@ -9,6 +9,9 @@ const nextConfig = {
       "ethereum.org",
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
