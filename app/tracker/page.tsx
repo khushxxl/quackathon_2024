@@ -36,7 +36,7 @@ function PriceTracker() {
   };
 
   useEffect(() => {
-    // fetchData();
+    fetchData();
   }, []);
 
   return (
@@ -58,7 +58,7 @@ function PriceTracker() {
                   key={i}
                   className="bg-white w-[230px] p-4 mt-10 rounded-lg cursor-pointer"
                 >
-                  <div className="flex justify-between items-center">
+                  <div className="flex text-black justify-between items-center">
                     <div className="flex space-x-2 font-bold">
                       <p>{i + 1}</p>
                       <p>{data?.symbol}</p>

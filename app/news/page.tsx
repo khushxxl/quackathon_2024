@@ -57,7 +57,7 @@ function News() {
   };
 
   useEffect(() => {
-    // getNews();
+    getNews();
   }, []);
 
   return (
