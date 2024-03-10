@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex  white-glassmorphism h-screen  mx-auto justify-between items-center bg-[#111827]">
+    <main className="flex flex-col md:flex-row  white-glassmorphism md:h-screen  mx-auto justify-between items-center bg-[#111827]">
       <div className="flex flex-col max-w-7xl ml-20 ">
         <div className="text-white space-y-20">
           <div className="max-w-xl ">
