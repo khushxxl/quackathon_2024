@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="flex  white-glassmorphism min-h-screen  mx-auto items-center bg-[#111827]">
-      <div className="flex flex-col max-w-7xl ml-20">
+    <main className="flex  white-glassmorphism h-screen  mx-auto items-center bg-[#111827]">
+      <div className="flex flex-col max-w-7xl ml-20 ">
         <div className="text-white space-y-20">
           <div className="max-w-xl ">
             <h1>About this Project</h1>

@@ -46,9 +46,11 @@ function Navbar() {
 
       <div className="flex">
         <div className="flex text-white space-x-5 mr-10">
-          <div className="hover:bg-slate-700 w-full rounded cursor-pointer p-2">
-            <p className="text-lg tracking-wide ">Learn</p>
-          </div>
+          <Link href={"/game"}>
+            <div className="hover:bg-slate-700 w-full rounded cursor-pointer p-2">
+              <p className="text-lg tracking-wide ">Learn</p>
+            </div>
+          </Link>
           <Link href={"/news"}>
             <div className="hover:bg-slate-700 w-full rounded cursor-pointer p-2">
               <p className="text-lg tracking-wide ">News</p>
