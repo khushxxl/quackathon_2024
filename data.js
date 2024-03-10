@@ -27,7 +27,7 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/e2ecb6b0-1ecf-43e2-8bee-639aabb13943-8529d82b-b305-4a26-a17c-6b5d66914b40",
-    ytLink: "https://youtu.be/i2dPa7548-Q",
+    ytLink: "https://www.youtube.com/embed/i2dPa7548-Q?si=Sa-JgH1eKhmXEh1B",
   },
 
   {
@@ -71,7 +71,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/1bcd141f-d472-4ca6-b086-f2d3d42623ab-1a53cd97-a4b5-47b3-bf64-d1da45283329",
-    ytLink: "https://youtu.be/SSo_EIwHSd4",
+    ytLink:
+      "https://youtu.be/Shttps://www.youtube.com/embed/SSo_EIwHSd4?si=nPeeoW0SPA8cbFiVSo_EIwHSd4",
   },
 
   {
@@ -122,7 +123,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/9b21fba9-6bed-4780-9c3f-df2a758100eb-0c9926cd-0e05-467a-951d-44e0e793468e",
-    ytLink: "https://youtu.be/dn8fKKfsJIs",
+    ytLink:
+      "https://youhttps://www.youtube.com/embed/dn8fKKfsJIs?si=LHaMH5r9C5tLZfrutu.be/dn8fKKfsJIs",
   },
 
   {
@@ -184,7 +186,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/9b21fba9-6bed-4780-9c3f-df2a758100eb-57bd5324-2f67-413d-8454-9db942667a33",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https://youtuhttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzY.be/jxLkbJozKbY",
   },
 
   {
@@ -247,7 +250,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3cdn.learnweb3.io/minis/fb8e5ea6-33e3-4f60-af5d-35233a2bbf75/bannerImage",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https://youtu.behttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYhttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYhttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYjxLkbJozKbY",
   },
   {
     title: "Introduction to Huddle01",
@@ -309,7 +313,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-short-badges.s3.us-east-2.amazonaws.com/dd59a5a2-cbe2-4b7e-aedc-df0517dac99e-2a31fdf2-ea95-484d-bcdd-fef7e1134833",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https:/https://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzY/youtu.be/jxLkbJozKbY",
   },
   {
     title: "Introduction to Particle Network",
@@ -371,7 +376,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-short-badges.s3.us-east-2.amazonaws.com/9124c069-8232-4449-91c1-9cdcb359e809-f37f3459-cabd-499e-9105-73030bc6a9b6",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https://yhttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYoutu.be/jxLkbJozKbY",
   },
   {
     title: "Introduction to Orderly Network",
@@ -433,7 +439,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-short-badges.s3.us-east-2.amazonaws.com/68de3381-516a-42f6-a634-41aa6c803714-2f12ad71-b632-4486-8b03-201a6ea58026",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https://youhttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYtu.be/jxLkbJozKbY",
   },
   {
     title: "Introduction to ChainIDE",
@@ -495,7 +502,8 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-short-badges.s3.us-east-2.amazonaws.com/6be3d906-da7e-4296-b406-ca002551d22a-c39293d3-bf9e-46f3-9e7d-bcc5d153f18d",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https://youtu.https://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYbe/jxLkbJozKbY",
   },
   {
     title: "What is Worldcoin?",
@@ -557,6 +565,7 @@ export const questions = [
     ],
     thumbnailImage:
       "https://lw3-short-badges.s3.us-east-2.amazonaws.com/26df512f-813e-4ff0-835d-7a82fc3fdbdc-d3812ef1-1a87-4cfc-a089-faf952fd283a",
-    ytLink: "https://youtu.be/jxLkbJozKbY",
+    ytLink:
+      "https://youhttps://www.youtube.com/embed/jxLkbJozKbY?si=Su6qWuYQLnnkLHzYtu.be/jxLkbJozKbY",
   },
 ];
