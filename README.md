@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+![Untitled design (1)](https://github.com/khushxxl/quackathon_2024/assets/73185436/67a2d722-11f0-49df-bbd0-0183dca6dc82)
+
+
 First, run the development server:
 
 ```bash
