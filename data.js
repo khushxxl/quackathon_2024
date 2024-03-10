@@ -1,61 +1,83 @@
 export const questions = [
   {
-    title: "Introduction to Cryptocurrency",
+    title: "How to get started with programming?",
+    subheading:
+      "Understand the basics of programming web technologies, how to get",
     stars: 0,
     question: [
       {
-        quest: "What is a defining characteristic of cryptocurrencies?",
-        ans: "Decentralization",
+        quest: "What is a frontend?",
+        ans: "The part of a website or application that users interact with directly",
         options: [
-          "Inflation resistance",
-          "Decentralization",
-          "Tangible value",
-          "Government control",
+          "The part of a website or application that users interact with directly",
+          "The part of a website or application that runs on a server and is inaccessible to users",
+          "The programming language that is used to build a website or application",
+          "The database that stores personal user information such as their address and credit card information",
         ],
       },
       {
-        quest:
-          "Which cryptocurrency is known as the first and most widely used?",
-        ans: "Bitcoin",
-        options: ["Ethereum", "Bitcoin", "Litecoin", "Ripple"],
+        quest: "What is a backend?",
+        ans: "The part of a website or application that runs on a server and is inaccessible to users",
+        options: [
+          "The part of a website or application that users interact with directly",
+          "The part of a website or application that runs on a server and is inaccessible to users",
+          "The programming language that is used to build a website or application",
+        ],
       },
     ],
-    thumbnailImage: "https://example.com/thumbnail1.jpg",
-    ytLink: "https://www.youtube.com/watch?v=6WG7D47tGb0",
+    thumbnailImage:
+      "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/e2ecb6b0-1ecf-43e2-8bee-639aabb13943-8529d82b-b305-4a26-a17c-6b5d66914b40",
+    ytLink: "https://youtu.be/i2dPa7548-Q",
   },
 
   {
-    title: "Basics of Blockchain Technology",
+    title: "What even is a blockchain?",
+    subheading:
+      "Understand the basics of blockchain and its various applications across different",
     stars: 0,
     question: [
       {
-        quest: "Which technology is foundational to Bitcoin?",
-        ans: "Blockchain",
+        quest: "Who created Bitcoin?",
+        ans: "Satoshi Nakamoto",
+        options: ["Satoshi Nakamoto", "Craig Wright", "John McAfee"],
+      },
+      {
+        quest: "What is a blockchain?",
+        ans: "A distributed database running on a peer to peer network of nodes",
         options: [
-          "Blockchain",
-          "Internet",
-          "Artificial Intelligence",
-          "Quantum Computing",
+          "A cryptocurrency",
+          "A distributed database running on a peer to peer network of nodes",
+          "A distributed database running on a peer to peer network of nodes",
         ],
       },
       {
-        quest: "What is a primary advantage of using blockchain technology?",
-        ans: "Increased transparency",
+        quest: "What is a genesis block?",
+        ans: "The initial state of the blockchain",
         options: [
-          "Faster data processing",
-          "Centralized control",
-          "Increased transparency",
-          "Higher data storage",
+          "The Book of Genesis on the blockchain",
+          "The initial state of the blockchain",
+          "The first transaction on the blockchain",
+        ],
+      },
+      {
+        quest: "Where are your cryptocurrency assets stored?",
+        ans: "In your digital wallet",
+        options: [
+          "In your digital wallet",
+          "In 1000's of blockchain nodes",
+          "In your bank accountn",
         ],
       },
     ],
-    thumbnailImage: "https://example.com/thumbnail2.jpg",
-    ytLink: "https://www.youtube.com/watch?v=r43LhSUUGTQ",
+    thumbnailImage:
+      "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/1bcd141f-d472-4ca6-b086-f2d3d42623ab-1a53cd97-a4b5-47b3-bf64-d1da45283329",
+    ytLink: "https://youtu.be/SSo_EIwHSd4",
   },
 
   {
-    title: "Understanding Smart Contracts",
+    title: "What is Web3?",
     stars: 0,
+    subheading: "Learn about the web3 and how it is different from web2.",
     question: [
       {
         quest: "What enables smart contracts to operate on blockchain?",
@@ -78,8 +100,9 @@ export const questions = [
         ],
       },
     ],
-    thumbnailImage: "https://example.com/thumbnail3.jpg",
-    ytLink: "https://www.youtube.com/watch?v=ZE2HxTmxfrI",
+    thumbnailImage:
+      "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/9b21fba9-6bed-4780-9c3f-df2a758100eb-0c9926cd-0e05-467a-951d-44e0e793468e",
+    ytLink: "https://youtu.be/dn8fKKfsJIs",
   },
 
   {
