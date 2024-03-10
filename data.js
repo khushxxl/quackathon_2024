@@ -80,24 +80,44 @@ export const questions = [
     subheading: "Learn about the web3 and how it is different from web2.",
     question: [
       {
-        quest: "What enables smart contracts to operate on blockchain?",
-        ans: "Automatic execution",
-        options: [
-          "Manual approval",
-          "Automatic execution",
-          "Periodic auditing",
-          "Third-party oversight",
-        ],
+        quest: "Web2 applications tend to be centralized",
+        ans: "True",
+        options: ["True", "False"],
       },
       {
-        quest: "What is a key benefit of smart contracts?",
-        ans: "Trustless agreements",
-        options: [
-          "Unlimited reversibility",
-          "Trustless agreements",
-          "Centralized management",
-          "Manual enforcement",
-        ],
+        quest: "It is easier for data breaches to happen in Web2 applications",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Web3 does not require permission to enter",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Web3 applications tend to be centralized",
+        ans: "False",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Web3 applications tend to be distributed",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Web3 does not require trust on a central authority",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Web3 is open and inclusive for all",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Web3 is controlled by a few trusted entities",
+        ans: "False",
+        options: ["True", "False"],
       },
     ],
     thumbnailImage:
@@ -106,198 +126,437 @@ export const questions = [
   },
 
   {
-    title: "The Rise of DeFi (Decentralized Finance)",
+    title: "What is Ethereum?",
+    subheading: "Learn about the history of Ethereum and what it offers.",
     stars: 0,
     question: [
       {
-        quest: "What is a major benefit of DeFi?",
-        ans: "Financial inclusivity",
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
         options: [
-          "Financial inclusivity",
-          "Centralized control",
-          "Limited access",
-          "Banking dependency",
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
         ],
+      },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
       },
       {
         quest:
-          "Which component is crucial for the functioning of DeFi applications?",
-        ans: "Smart contracts",
-        options: [
-          "Digital identities",
-          "Central banks",
-          "Smart contracts",
-          "Physical collateral",
-        ],
-      },
-    ],
-    thumbnailImage: "https://example.com/thumbnail4.jpg",
-    ytLink: "https://www.youtube.com/watch?v=8r1M9_fjyqg",
-  },
-
-  {
-    title: "Exploring NFTs (Non-Fungible Tokens)",
-    stars: 0,
-    question: [
-      {
-        quest: "What makes an NFT unique?",
-        ans: "Indivisibility and non-interchangeability",
-        options: [
-          "Unlimited replication",
-          "Fungibility and interchangeability",
-          "Indivisibility and non-interchangeability",
-          "Physical representation",
-        ],
-      },
-      {
-        quest: "Which sector is notably utilizing NFTs for digital ownership?",
-        ans: "Art and collectibles",
-        options: [
-          "Real estate",
-          "Corporate bonds",
-          "Commodities",
-          "Art and collectibles",
-        ],
-      },
-    ],
-    thumbnailImage: "https://example.com/thumbnail5.jpg",
-    ytLink: "https://www.youtube.com/watch?v=a8ww4aNlPQU",
-  },
-
-  {
-    title: "Cryptocurrency Mining Essentials",
-    stars: 0,
-    question: [
-      {
-        quest: "What is the main purpose of cryptocurrency mining?",
-        ans: "Transaction verification and network security",
-        options: [
-          "Creating new internet",
-          "Generating new coins",
-          "Transaction verification and network security",
-          "Data encryption",
-        ],
-      },
-      {
-        quest: "What is a common piece of hardware used in mining?",
-        ans: "ASIC miner",
-        options: [
-          "Quantum computer",
-          "Mainframe",
-          "ASIC miner",
-          "Personal computer",
-        ],
-      },
-    ],
-    thumbnailImage: "https://example.com/thumbnail6.jpg",
-    ytLink: "https://www.youtube.com/watch?v=FC0rFxGO0pk",
-  },
-
-  {
-    title: "Investing in Cryptocurrencies",
-    stars: 0,
-    question: [
-      {
-        quest:
-          "What is a key consideration when investing in cryptocurrencies?",
-        ans: "Market volatility",
-        options: [
-          "Fixed returns",
-          "Market stability",
-          "Government backing",
-          "Market volatility",
-        ],
-      },
-      {
-        quest: "Which factor can greatly affect the value of a cryptocurrency?",
-        ans: "Market sentiment",
-        options: [
-          "Predictable inflation",
-          "Fixed supply",
-          "Interest rates",
-          "Market sentiment",
-        ],
-      },
-    ],
-    thumbnailImage: "https://example.com/thumbnail7.jpg",
-    ytLink: "https://www.youtube.com/watch?v=4ZdCNSPzLXk",
-  },
-
-  {
-    title: "The Future of Digital Currencies",
-    stars: 0,
-    question: [
-      {
-        quest:
-          "Which factor could significantly influence the future of digital currencies?",
-        ans: "Regulatory developments",
-        options: [
-          "Stable energy costs",
-          "Regulatory developments",
-          "Static technology",
-          "Decreased online activity",
-        ],
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
       },
       {
         quest:
-          "What potential does cryptocurrency have in terms of global finance?",
-        ans: "Facilitating cross-border transactions",
-        options: [
-          "Replacing traditional banking",
-          "Eliminating physical currencies",
-          "Facilitating cross-border transactions",
-          "Standardizing global interest rates",
-        ],
-      },
-    ],
-    thumbnailImage: "https://example.com/thumbnail8.jpg",
-    ytLink: "https://www.youtube.com/watch?v=WYQURjJFJYs",
-  },
-
-  {
-    title: "Privacy and Security in Cryptocurrencies",
-    stars: 0,
-    question: [
-      {
-        quest: "What is a crucial aspect of privacy in cryptocurrencies?",
-        ans: "Anonymity of transactions",
-        options: [
-          "Traceability of transactions",
-          "Unlimited transparency",
-          "Centralized data storage",
-          "Anonymity of transactions",
-        ],
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
       },
       {
         quest:
-          "Which mechanism is often used to enhance security in cryptocurrencies?",
-        ans: "Cryptography",
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
         options: [
-          "Cryptography",
-          "Biometric verification",
-          "Two-factor authentication",
-          "Physical tokens",
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
         ],
       },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
     ],
-    thumbnailImage: "https://example.com/thumbnail9.jpg",
-    ytLink: "https://www.youtube.com/watch?v=_lH4tXuu8fQ",
+    thumbnailImage:
+      "https://lw3-lesson-banners.s3.us-east-2.amazonaws.com/9b21fba9-6bed-4780-9c3f-df2a758100eb-57bd5324-2f67-413d-8454-9db942667a33",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
   },
 
   {
-    title: "The Impact of Cryptocurrencies on Global Finance",
+    title: "Implementing Social Logins with Particle Network",
+    subheading:
+      "Brief exploration of the implementation of social logins using Particle Network's Smart",
     stars: 0,
     question: [
       {
-        quest: "How might cryptocurrencies impact global finance?",
-        ans: "By offering alternative financial services",
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
         options: [
-          "By standardizing global interest rates",
-          "By centralizing global finance",
-          "By offering alternative financial services",
-          "By eliminating the stock market",
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
         ],
       },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
+      },
+      {
+        quest:
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+        options: [
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
+        ],
+      },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
     ],
+    thumbnailImage:
+      "https://lw3cdn.learnweb3.io/minis/fb8e5ea6-33e3-4f60-af5d-35233a2bbf75/bannerImage",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
+  },
+  {
+    title: "Introduction to Huddle01",
+    subheading:
+      "Learn about Huddle01 - the real time communication network for audio, video, and more!",
+    stars: 0,
+    question: [
+      {
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
+        options: [
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
+        ],
+      },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
+      },
+      {
+        quest:
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+        options: [
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
+        ],
+      },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
+    ],
+    thumbnailImage:
+      "https://lw3-short-badges.s3.us-east-2.amazonaws.com/dd59a5a2-cbe2-4b7e-aedc-df0517dac99e-2a31fdf2-ea95-484d-bcdd-fef7e1134833",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
+  },
+  {
+    title: "Introduction to Particle Network",
+    subheading:
+      "Learning about the Intent-Centric, Modular Access Layer of Web3",
+    stars: 0,
+    question: [
+      {
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
+        options: [
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
+        ],
+      },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
+      },
+      {
+        quest:
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+        options: [
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
+        ],
+      },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
+    ],
+    thumbnailImage:
+      "https://lw3-short-badges.s3.us-east-2.amazonaws.com/9124c069-8232-4449-91c1-9cdcb359e809-f37f3459-cabd-499e-9105-73030bc6a9b6",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
+  },
+  {
+    title: "Introduction to Orderly Network",
+    subheading:
+      "Orderly is an omnichain CLOB infrastructure. It's the ultimate trading lego for seamless",
+    stars: 0,
+    question: [
+      {
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
+        options: [
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
+        ],
+      },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
+      },
+      {
+        quest:
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+        options: [
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
+        ],
+      },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
+    ],
+    thumbnailImage:
+      "https://lw3-short-badges.s3.us-east-2.amazonaws.com/68de3381-516a-42f6-a634-41aa6c803714-2f12ad71-b632-4486-8b03-201a6ea58026",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
+  },
+  {
+    title: "Introduction to ChainIDE",
+    subheading:
+      "Introducing ChainIDE, the world's first and largest cloud-based multichain IDe for developers",
+    stars: 0,
+    question: [
+      {
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
+        options: [
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
+        ],
+      },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
+      },
+      {
+        quest:
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+        options: [
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
+        ],
+      },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
+    ],
+    thumbnailImage:
+      "https://lw3-short-badges.s3.us-east-2.amazonaws.com/6be3d906-da7e-4296-b406-ca002551d22a-c39293d3-bf9e-46f3-9e7d-bcc5d153f18d",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
+  },
+  {
+    title: "What is Worldcoin?",
+    subheading:
+      "Worldcoin is a new proof of personhood protocol utilizing privacy-preserving digital",
+    stars: 0,
+    question: [
+      {
+        quest: "How are smart contracts executed?",
+        ans: "On the Ethereum Virtual Machine (EVM)",
+        options: [
+          "On Ethereum servers",
+          "On the Ethereum Virtual Machine (EVM)",
+          "Jeff Bezos runs them",
+        ],
+      },
+      {
+        quest: "Ethereum currently uses which consensus algorithm?",
+        ans: "Proof of Stake",
+        options: ["Proof of Work", "Proof of Stake", "Proof of Authority"],
+      },
+      {
+        quest:
+          "In the Serenity patch... Ethereum moved from Proof of Work to Proof of Stake",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "If you write a smart contract on the Ethereum mainnet... it will be replicated and processed on all the computers on the Ethereum main network.",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest:
+          "You can create your own ERC-20 token without the permission of Ethereum",
+        ans: "True",
+        options: ["True", "False"],
+      },
+      {
+        quest: "Which statement best describes Proof of Work?",
+        ans: "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+        options: [
+          "Miners with the most currency are allowed to mine and add blocks to the blockchain",
+          "Miners compete to solve computational puzzles. The winner of this competition gets to add a block to the blockchain.",
+          "Miners work to compute an EVM routing problem. The first miner to solve the problem gets to add blocks to the Blockchain",
+        ],
+      },
+      {
+        quest: "Who's 'Block time' is shorter?",
+        ans: "Ethereum",
+        options: ["Bitcoin", "Ethereum"],
+      },
+      {
+        quest: "Who's 'Block size' is bigger?",
+        ans: "Bitcoin",
+        options: ["Bitcoin", "Ethereum"],
+      },
+    ],
+    thumbnailImage:
+      "https://lw3-short-badges.s3.us-east-2.amazonaws.com/26df512f-813e-4ff0-835d-7a82fc3fdbdc-d3812ef1-1a87-4cfc-a089-faf952fd283a",
+    ytLink: "https://youtu.be/jxLkbJozKbY",
   },
 ];
