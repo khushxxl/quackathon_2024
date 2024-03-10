@@ -14,7 +14,7 @@ async function GameDetail({ params }: { params: any }) {
 
   async function getGameDetails(id: any) {
     const url =
-      "https://my-json-server.typicode.com/khushxxl/placeholderJson/questions";
+      "https://my-json-server.typicode.com/sujalthakur1/jsondata/questions";
     const options = {
       method: "GET",
     };
@@ -43,7 +43,11 @@ async function GameDetail({ params }: { params: any }) {
       </div>
       <div className="flex flex-col items-center text-justify mt-3">
         <iframe
-          src={game.ytLink}
+          src={
+            game && game?.ytlink
+              ? game.ytlink
+              : " https://www.youtube.com/embed/i2dPa7548-Q?si=Sa-JgH1eKhmXEh1B"
+          }
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
@@ -196,7 +200,7 @@ async function GameDetail({ params }: { params: any }) {
       </div>
       <h1 className="text-2xl font-bold font-mono">Questions</h1>
       <div className="w-full">
-        {game.question.map((question: any, i: number) => (
+        {game?.question.map((question: any, i: number) => (
           <QuestionComponent key={i} question={question} index={i} />
         ))}
       </div>
