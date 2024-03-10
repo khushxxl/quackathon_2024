@@ -6,7 +6,8 @@ import Link from "next/link";
 
 function Game() {
   const [questions, setquestions] = useState([]);
-  const url = "https://my-json-server.typicode.com/khushxxl/newJson/questions";
+  const url =
+    "https://my-json-server.typicode.com/SujalThakur1/newJson/questions";
 
   const fetchData = async () => {
     const options = {
