@@ -6,6 +6,7 @@ const nextConfig = {
       "www.coindesk.com",
       "lw3-lesson-banners.s3.us-east-2.amazonaws.com",
       "lw3-lesson-banners.s3.us-east-2.amazonaws.com",
+      "ethereum.org",
     ],
   },
 };

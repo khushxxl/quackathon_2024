@@ -6,8 +6,7 @@ import Link from "next/link";
 
 function Game() {
   const [questions, setquestions] = useState([]);
-  const url =
-    "https://my-json-server.typicode.com/khushxxl/placeholderJson/questions";
+  const url = "https://my-json-server.typicode.com/khushxxl/newJson/questions";
 
   const fetchData = async () => {
     const options = {
@@ -42,19 +41,21 @@ function Game() {
           </h1>
         </div>
         <div className="grid grid-cols-1 place-items-center md:grid-cols-3 gap-x-4 gap-y-6 mt-10">
-          {questions.map((data: any, i) => {
-            return (
-              <Link key={i} href={`/game/${data.id}`}>
-                <CardWithForm
-                  key={i}
-                  name={data?.title}
-                  imageUrl={data?.thumbnailImage}
-                  stars={0}
-                  subheading={data?.subheading}
-                />
-              </Link>
-            );
-          })}
+          {questions &&
+            questions.length > 0 &&
+            questions.map((data: any, i) => {
+              return (
+                <Link key={i} href={`/game/${data.id}`}>
+                  <CardWithForm
+                    key={i}
+                    name={data?.title}
+                    imageUrl={data?.thumbnailImage}
+                    stars={0}
+                    subheading={data?.subheading}
+                  />
+                </Link>
+              );
+            })}
         </div>
       </div>
     </>

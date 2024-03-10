@@ -1,8 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex  white-glassmorphism h-screen  mx-auto items-center bg-[#111827]">
+    <main className="flex  white-glassmorphism h-screen  mx-auto justify-between items-center bg-[#111827]">
       <div className="flex flex-col max-w-7xl ml-20 ">
         <div className="text-white space-y-20">
           <div className="max-w-xl ">
@@ -32,6 +33,14 @@ export default function Home() {
           </div>
         </Link>
       </div>
+      <Image
+        height={600}
+        width={600}
+        alt=""
+        src={
+          "https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fimpact_transparent.7420c423.png&w=1504&q=75"
+        }
+      />
     </main>
   );
 }
