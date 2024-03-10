@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex  white-glassmorphism h-screen  mx-auto items-center bg-[#111827]">
@@ -24,9 +26,11 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <div className="bg-gradient-to-r h-fit mt-10  from-purple-500 to-pink-500  p-2 w-fit rounded-md text-white text-center cursor-pointer">
-          <p>{"Continue to Dashboard"}</p>
-        </div>
+        <Link href={"/game"}>
+          <div className="bg-gradient-to-r h-fit mt-10  from-purple-500 to-pink-500  p-2 w-fit rounded-md text-white text-center cursor-pointer">
+            <p>{"Continue to Dashboard"}</p>
+          </div>
+        </Link>
       </div>
     </main>
   );

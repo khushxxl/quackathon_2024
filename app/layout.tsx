@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import { Web3ModalProvider } from "@/context/Web3Modal";
+import { ThemeProvider } from "@/components/Themeprovider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +21,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Web3ModalProvider>
-        <body className={inter.className}>
-          <Navbar />
-          {/* <Sidebar /> */}
-          {children}
-        </body>
-      </Web3ModalProvider>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="dark"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <Web3ModalProvider>
+          <body className={inter.className}>
+            <Navbar />
+            {/* <Sidebar /> */}
+            {children}
+          </body>
+        </Web3ModalProvider>
+      </ThemeProvider>
     </html>
   );
 }

@@ -41,15 +41,15 @@ function PriceTracker() {
 
   return (
     <div className="max-w-6xl flex mx-auto flex-col">
-      <div className="mt-10 text-left">
+      <div className="mt-10 md:text-left text-center">
         <h1 className="text-2xl cursor-pointer font-mono font-extrabold text-transparent bg-clip-text tracking-wide bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
           Track Live Crypto Price
         </h1>
-        <h1 className="text-white font-semibold text-left mt-2">
+        <h1 className="text-white font-semibold mt-2">
           Learn more about web3 by creating your own NFTs
         </h1>
       </div>
-      <div className="grid grid-cols-4 gap-x-4">
+      <div className="grid grid-cols-1 place-items-center gap-x-4 md:grid-cols-4">
         {trackerData &&
           trackerData.map((data: any, i) => {
             return (

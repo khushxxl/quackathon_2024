@@ -14,6 +14,24 @@ function News() {
         "https://www.coindesk.com/resizer/956JHo_cLlwLiVdCkWZjV3zvbTE=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/6Q6IDVB3DNA4XI35UXQOPXB3U4.png",
       createdAt: "Wed, 08 Feb 2023 14:09:00 +0000",
     },
+    {
+      url: "https://www.coindesk.com/policy/2023/02/08/crypto-exchange-bitstamp-registers-in-france/?utm_medium=referral&utm_source=rss&utm_campaign=headlines",
+      title: "Crypto Exchange Bitstamp Registers in France",
+      description:
+        "The exchange joins Binance, Bitpanda and Société Générale in securing recognition from one of the most sophisticated regimes in the EU.",
+      thumbnail:
+        "https://www.coindesk.com/resizer/956JHo_cLlwLiVdCkWZjV3zvbTE=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/6Q6IDVB3DNA4XI35UXQOPXB3U4.png",
+      createdAt: "Wed, 08 Feb 2023 14:09:00 +0000",
+    },
+    {
+      url: "https://www.coindesk.com/policy/2023/02/08/crypto-exchange-bitstamp-registers-in-france/?utm_medium=referral&utm_source=rss&utm_campaign=headlines",
+      title: "Crypto Exchange Bitstamp Registers in France",
+      description:
+        "The exchange joins Binance, Bitpanda and Société Générale in securing recognition from one of the most sophisticated regimes in the EU.",
+      thumbnail:
+        "https://www.coindesk.com/resizer/956JHo_cLlwLiVdCkWZjV3zvbTE=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/6Q6IDVB3DNA4XI35UXQOPXB3U4.png",
+      createdAt: "Wed, 08 Feb 2023 14:09:00 +0000",
+    },
   ]);
 
   const getNews = async () => {
@@ -44,16 +62,16 @@ function News() {
 
   return (
     <div className=" max-w-7xl flex mx-auto flex-col">
-      <div className="mt-10 text-left">
+      <div className="mt-10 md:text-left text-center">
         <h1 className="text-2xl cursor-pointer font-mono font-extrabold text-transparent bg-clip-text tracking-wide bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
           Crypto News
         </h1>
-        <h1 className="text-white font-semibold text-left mt-2">
+        <h1 className="text-white font-semibold mt-2">
           Learn more about web3 by reading news and updates
         </h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-x-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-x-4">
         {newsData &&
           newsData.map((data, i) => {
             return (
