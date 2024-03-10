@@ -3,6 +3,7 @@ import * as React from "react";
 import { Card, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { StarIcon } from "@heroicons/react/24/solid";
 import { StarIcon as StarOutline } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export function CardWithForm({
   name,
@@ -17,21 +18,24 @@ export function CardWithForm({
 }) {
   return (
     <div className="w-[300px]">
-      <Card className="flex cursor-pointer flex-col h-[350px] relative bg-gray-900 rounded-lg overflow-hidden">
-        {/* Background image at the top */}
-        <div
-          className="h-2/3 bg-cover bg-center rounded-t-lg"
-          style={{
-            backgroundImage: `url(${imageUrl})`,
-            margin: "10px", // Adding margin
-          }}
-        ></div>
+      <Card className="flex cursor-pointer p-2 border-2 h-[400px] border-gray-600 flex-col relative bg-gray-900 rounded-lg overflow-hidden">
+        <div>
+          {/* <Image src={imageUrl} width={200} height={100} alt="" /> */}
+          {imageUrl && (
+            <img
+              src={imageUrl}
+              alt=""
+              height={200}
+              className="h-[170px] w-[400px]"
+            />
+          )}
+        </div>
 
         {/* Content below the image, including heading and subheading */}
-        <div className="h-1/3 flex flex-col justify-between ">
+        <div className="h-1/3 flex flex-col justify-between  mt-3">
           <CardHeader>
             <CardTitle>
-              <h3 className="text-3xl font-bold text-center text-white mt-[-25px]">
+              <h3 className="text-xl font-bold text-center text-white mt-[-25px]">
                 {name}
               </h3>{" "}
               {subheading && (
@@ -41,7 +45,7 @@ export function CardWithForm({
           </CardHeader>
           <CardFooter></CardFooter>
         </div>
-        <div className="flex space-x-2 justify-center mb-4">
+        <div className="flex space-x-2 justify-center mb-4 mt-10 ">
           {[...Array(3)].map((_, index) => (
             <React.Fragment key={index}>
               {index < stars ? (
